@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+h1 {
+    color: #2c3e50;
+}
+ul li {
+    margin: 10px 0;
+}
+a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
