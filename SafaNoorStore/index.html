@@ -3,67 +3,154 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Safa Noor Online Shop</title>
+  <title>Safa Noor Online Store</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- Facebook Pixel -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'YOUR_PIXEL_ID');
+    fbq('track', 'PageView');
+  </script>
 </head>
+
 <body>
 
 <header>
-  <h1>Safa Noor Online Shop</h1>
-  <p>Islamic & Natural Products</p>
+  <h1>Safa Noor Online Store</h1>
+  <p>Premium Islamic & Natural Products</p>
 </header>
 
 <section class="products">
 
-  <!-- Product 1 -->
+  <!-- Honey -->
   <div class="card">
+  <div class="img-box">
     <img src="images/honey.jpg" alt="Pure Honey">
+  </div>
+
+  <div class="card-body">
     <h2>Pure Honey</h2>
-    <p>100% Natural & Organic Honey</p>
-    <a href="https://wa.me/8801949805239?text=I%20want%20to%20order%20Pure%20Honey" target="_blank">
-      Order on WhatsApp
+    <p class="short-desc">100% Natural • No Sugar Added</p>
+    <p class="price">৳ 850 / 1 Kg</p>
+
+    <!-- View Details -->
+    <a href="products/honey.html" class="btn details-btn">
+      View Details
+    </a>
+
+    <!-- WhatsApp Order -->
+    <a href="https://wa.me/8801949805239?text=I%20want%20to%20order%20Pure%20Honey"
+       target="_blank"
+       class="btn whatsapp-btn">
+       Order on WhatsApp
     </a>
   </div>
+</div>
 
-  <!-- Product 2 -->
+
+  <!-- Perfume -->
   <div class="card">
+  <div class="img-box">
     <img src="images/perfume.jpg" alt="Attar Perfume">
+  </div>
+
+  <div class="card-body">
     <h2>Attar Perfume</h2>
-    <p>Long lasting alcohol free perfume</p>
-    <a href="https://wa.me/8801949805239?text=I%20want%20to%20order%20Attar%20Perfume" target="_blank">
-      Order on WhatsApp
+    <p class="short-desc">Long Lasting • Alcohol Free</p>
+    <p class="price">৳ 1200 / 50ml</p>
+
+    <a href="products/perfume.html" class="btn details-btn">
+      View Details
+    </a>
+
+    <a href="https://wa.me/8801949805239?text=I%20want%20to%20order%20Attar%20Perfume"
+       target="_blank"
+       class="btn whatsapp-btn">
+       Order on WhatsApp
     </a>
   </div>
+</div>
 
-  <!-- Product 3 -->
+
+  <!-- Hijab -->
   <div class="card">
-    <img src="images/hijab.jpg" alt="Hijab">
+  <div class="img-box">
+    <img src="images/hijab.jpg" alt="Elegant Hijab">
+  </div>
+
+  <div class="card-body">
     <h2>Elegant Hijab</h2>
-    <p>Soft, comfortable & stylish hijab</p>
-    <a href="https://wa.me/8801949805239?text=I%20want%20to%20order%20Hijab" target="_blank">
-      Order on WhatsApp
+    <p class="short-desc">Soft Fabric • Premium Look</p>
+    <p class="price">৳ 600 / Piece</p>
+
+    <a href="products/hijab.html" class="btn details-btn">
+      View Details
+    </a>
+
+    <a href="https://wa.me/8801949805239?text=I%20want%20to%20order%20Elegant%20Hijab"
+       target="_blank"
+       class="btn whatsapp-btn">
+       Order on WhatsApp
     </a>
   </div>
+</div>
 
-  <!-- Product 4 -->
+
+  <!-- Dates -->
   <div class="card">
+  <div class="img-box">
     <img src="images/dates.jpg" alt="Ajwa Dates">
-    <h2>Ajwa Dates</h2>
-    <p>Premium quality Sunnah dates</p>
-    <a href="https://wa.me/8801949805239?text=I%20want%20to%20order%20Ajwa%20Dates" target="_blank">
-      Order on WhatsApp
-    </a>
   </div>
 
-  <!-- Product 5 -->
-  <div class="card">
-    <img src="images/oil.jpg" alt="Olive Oil">
-    <h2>Olive Oil</h2>
-    <p>Pure olive oil for health & sunnah</p>
-    <a href="https://wa.me/8801949805239?text=I%20want%20to%20order%20Olive%20Oil" target="_blank">
-      Order on WhatsApp
+  <div class="card-body">
+    <h2>Ajwa Dates</h2>
+    <p class="short-desc">Imported • Sunnah Food</p>
+    <p class="price">৳ 1500 / 1 Kg</p>
+
+    <a href="products/dates.html" class="btn details-btn">
+      View Details
+    </a>
+
+    <a href="https://wa.me/8801949805239?text=I%20want%20to%20order%20Ajwa%20Dates"
+       target="_blank"
+       class="btn whatsapp-btn">
+       Order on WhatsApp
     </a>
   </div>
+</div>
+
+
+  <!-- Olive Oil -->
+  <div class="card">
+  <div class="img-box">
+    <img src="images/oil.jpg" alt="Olive Oil">
+  </div>
+
+  <div class="card-body">
+    <h2>Olive Oil</h2>
+    <p class="short-desc">Cold Pressed • Pure Quality</p>
+    <p class="price">৳ 900 / 500ml</p>
+
+    <a href="products/oil.html" class="btn details-btn">
+      View Details
+    </a>
+
+    <a href="https://wa.me/8801949805239?text=I%20want%20to%20order%20Olive%20Oil"
+       target="_blank"
+       class="btn whatsapp-btn">
+       Order on WhatsApp
+    </a>
+  </div>
+</div>
+
 
 </section>
 
